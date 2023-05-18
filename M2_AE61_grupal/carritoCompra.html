@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css\estilos.css">
+    <script src="js\script.js"></script>
+    <title>Carrito de Compra</title>
+</head>
+<body>
+    <header class="container">
+       
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark navbar-expand-lg " style="background-color: #45A29E ;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a class="navbar-brand" href="#">   
+                                <img src="img\logofenix.png" alt="" width="100px" height="100px">  
+                                FENIX Productos Deportivos</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="nosotros.html" target="_blank"><strong>Nosotros</strong></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="productos.html" target="_blank"><strong>Productos</strong></a></li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="ubicacion.html" target="_blank"><strong>Ubicación</strong></a></li>
+                                        
+                                        <li>
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <strong>Líneas de Productos</strong>
+                                              </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Máquinas de Ejercicios</a></li>
+                                                <li><a class="dropdown-item" href="#">Bicicletas</a></li>
+                                                <li><a class="dropdown-item" href="#">Ropa Deportiva</a></li>
+                                                <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+                                                <li><a class="dropdown-item" href="#">Implementos Deportivos</a></li>
+                                                <li><a class="dropdown-item" href="#">Ropa Deportiva Invierno</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+ 
+                      </div>
+                    </div>                  
+                </div>
+              </nav>
+        </div>
+   </header> 
+    <div class="container">
+        <h1>Carrito de Compras</h1>
+
+        <div>
+          <table id="cart" class="table table-hover table-condensed">
+    <thead>
+        <tr>
+            <th style="width:50%">Producto</th>
+            <th style="width:10%">Precio</th>
+            <th style="width:8%">Cantidad</th>
+            <th style="width:22%" class="text-center">Subtotal</th>
+            <th style="width:10%"></th>
+        </tr>
+    </thead>
+    <tbody id="cart-tbody">
+        <!-- Aquí se agregarán los elementos del carrito dinámicamente -->
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4" class="text-right"><strong>Total</strong></td>
+            <td class="text-center"><strong id="total"></strong></td>
+        </tr>
+        
+    </tfoot>
+</table>
+
+
+        </div>
+        <div >
+            <a href="index.html">Volver página inicio</a>
+        </div>
+      
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+   <script stype="text/javascript" src="js/javascript1.js"></script> 
+</body>
+
+</html>

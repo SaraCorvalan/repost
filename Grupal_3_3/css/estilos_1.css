@@ -1,0 +1,114 @@
+.logo{
+    width: 5%;
+    height: 5%;
+    float: left;
+    background-color: transparent;
+}
+.encabezados{  
+    padding: 50px;
+    background-image: url("/img/4.png");
+    background-color: rgb(233, 216, 162);
+    color: rgb(14, 29, 4);
+    text-align: center;
+    margin: 5Px;
+    font-family: 'Courier New', Courier, monospace ;
+    display: block;
+    background-repeat:round;
+    background-attachment: scroll;
+}
+
+#h1-inicio{  
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;text-shadow : black 0.1em 0.1em 0.2em;
+}
+#h1-inicio:hover{  
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 56px;
+    background-color: transparent;
+    color:chartreuse;
+} 
+.beneficios{
+    flex: 1;
+    margin: 10Px;
+    padding: 10px 5px;
+    min-width: 350px;
+    padding: 3px 10px;
+    border: lightgreen 5px solid;
+    border-radius: 20px;
+    
+}
+.fondopagina {
+    background-color:whitesmoke;
+    
+}
+
+table{
+    border: black 3px solid;   
+    font-weight: bold;
+}
+tr {
+    border: green 5px solid;
+}
+td {
+    border: rgb(22, 22, 21) 1px solid;
+    
+}
+#uno{
+    width: 100px;   
+}
+#mapa{
+    width: 500px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    background-color: whitesmoke;
+ }
+
+#estrella{
+    width: 100px;
+}
+@media screen and (max-width: 768px){
+
+    #uno{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr ;
+        grid-gap: 2px;
+        background-position: 50% 50%;
+        background-size: cover;
+        
+        }
+      
+
+}
+@media screen and (min-width: 768px){
+    #grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 10px;
+        justify-content:left;
+        align-content: stretch;
+        
+    }
+
+}
+/*
+ Pregunta adicional: Describa cuál es el efecto de cambiar la propiedad
+ box-sizing en nuestra hoja de estilos, desde border-box a content-box. 
+ ¿A qué se deben las diferencias presentadas y cuál prefiere utilizar? 
+Respuesta:la diferencia de border-box a content-box es el tamaño que ocupan,
+ border-box se refiere al tamaño completo del elemento, incluyendo su padding y borde 
+ y content-box se refiere al área que ocupa el contenido del elemento.
+ yo prefiero utilizar border-box ya que utiliza el complemento completo.
+
+*/
