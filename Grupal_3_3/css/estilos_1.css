@@ -24,7 +24,8 @@
     transition-delay: 2s;
     font-size: 24px;
     background-color: transparent;
-    color: white;text-shadow : black 0.1em 0.1em 0.2em;
+    color: white;
+    text-shadow :blue 0.1em 0.1em 0.2em;
 }
 #h1-inicio:hover{  
     position: relative;
